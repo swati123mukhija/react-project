@@ -1,0 +1,183 @@
+.App {
+  text-align: center;
+}
+#root{
+  background-color: #3368B2;
+}
+.repo-container ul{
+  display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.repo-container ul li{
+  list-style-type: none;
+    text-align: center;
+    cursor: pointer;
+}
+.bgbox{
+  background: #fff;
+    height: 56px;
+    width: 225px;
+    display: inline-flex;
+    border-radius: 0px 0px 3px 3px;
+    margin-top: -5px;
+}
+.flexa .repo-text{
+  font-size: 16px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      align-content: center;
+      flex: 1 1 auto;
+}
+.btn-red{
+  background-color: #f34f4f;
+    background: #f34f4f none repeat scroll 0 0;
+    border: 1px solid #f34f4f!important;
+    cursor: pointer;
+    width: 120px;
+    margin-left: 20px;
+    outline:none;
+}
+.btn{
+  color: #fff;
+    padding: 10px;
+    border-radius: 24px;
+}
+.flexa .formbg{
+  border-radius: 9px 8px 0px 0px;
+}
+.flexa{
+  margin-right: 10px;
+  border-radius: 5px;
+  flex: 0 1 25%;
+}
+.prel{
+  position: relative;
+}
+.mb40{
+  margin-bottom: 40px;
+}
+input {
+  width: 68%;
+height: 73px;
+margin-top: 11px;
+font-size: 20px;
+box-sizing: border-box;
+padding: 1.5rem;
+color: #fff;
+background: #3368B2;
+border: 1px solid #5E8FC8;
+outline: none;
+}
+.gobtn{
+  position: absolute;
+  right: 218px;
+  top: 62px;
+  color: #fff;
+  background: #3368B2;
+  width: 100px;
+    height: 73px;
+    outline:none;
+  border: 1px solid #5E8FC8;
+  cursor:pointer;
+}
+
+.simple-keyboard {
+  max-width: 850px;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.no-suggestions {
+  color: #999;
+  padding: 0.5rem;
+}
+
+.suggestions {
+  border: 1px solid #5E8FC8;
+    list-style: none;
+    margin-top: 0;
+    max-height: 143px;
+    overflow-y: auto;
+    display: inline-flex;
+    width: 65%;
+    margin-left: 215px;
+}
+
+.suggestions li {
+  padding: 10px;
+margin-top: 12px;
+      width: 65%;
+}
+
+.suggestion-active,
+.suggestions li:hover {
+  background-color: #f34f4f;
+  color: #fff;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+h1,h2{
+  font-size:20px
+}
+#root{
+  display:flex;
+  justify-content: center;
+  font-size: 20px;
+}
+
+
+@media only screen and (max-width: 1024px){
+  .gobtn{
+    right: 43px;
+    top: 77px;
+  }
+  .suggestions{
+        margin-left: 57px;
+  }
+  input{
+        width: 74%;
+        margin-top: 27px;
+  }
+  .repo-container ul li{
+    margin-right: 39px;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.red{
+  color: red;
+}
+.bold{
+  font-weight: bold;
+}
+.head{
+  color: red;
+}
+@media only screen and (max-width: 280px) {
+  .flexa{
+    margin-right: 48px;
+  }
+  .gobtn{
+    right: 16px;
+  }
+}
+
