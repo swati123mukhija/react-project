@@ -50,7 +50,6 @@ class Autocomplete extends Component {
       userInput: e.currentTarget.innerText
     });
   };
-
   render() {
     const {
       handleChange,

@@ -11,7 +11,6 @@ function App() {
     expanded: false,
 	  flag : false,
   });
-  
 
   useEffect(() => {
     setAppState({ loading: true, expanded: true });
