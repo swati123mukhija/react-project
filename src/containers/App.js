@@ -30,7 +30,6 @@ function App() {
 		setAppState({ itemsToShow: 12, expanded: false , naruto: appState.naruto})
 	  )
 	}
-
   return (
     <div className='App'>
       <div className='repo-container'>

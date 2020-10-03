@@ -19,7 +19,7 @@ const List = (props) => {
         );
       })}
     </ul>
-      </>
+    </>
   );
 };
 export default List;
