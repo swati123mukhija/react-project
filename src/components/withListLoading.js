@@ -10,5 +10,4 @@ function WithListLoading(Component) {
     );
   };
 }
-
 export default WithListLoading;
